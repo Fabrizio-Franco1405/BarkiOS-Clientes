@@ -1,0 +1,19 @@
+{
+    "name": "barkios/barkios",
+    "description": "Proyecto BarkiOs - Sistema de gestión",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Barkios\\Barkios\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nokx1z",
+            "email": "enyelldev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
