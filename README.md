@@ -108,8 +108,8 @@ phpMyAdmin: http://localhost/phpmyadmin
 ## 🌐 API Endpoints  
 ```plaintext
 GET    /api/clientes     - Listar clientes  
-POST   /api/clientes     - Crear nuevo proveedor  
-GET    /api/clientes/{id} - Detalles de proveedor  
+POST   /api/clientes     - Crear nuevo clientes  
+GET    /api/clientes/{id} - Detalles de clientes  
 ```  
 
 ## 📜 Licencia  
