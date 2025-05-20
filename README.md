@@ -62,8 +62,6 @@ Herramientas: phpMyAdmin (ambos entornos)
    http://localhost/BarkiOS-Clientes/app/views/admin/clients-admin.php
    ```
 
-=======
-
 ## 🐳 Instalación con Docker  
 
 ### Requisitos  
@@ -85,7 +83,6 @@ docker-compose --version
    ```
    http://localhost:9080/app/views/admin/clients-admin.php
    ```
-=======
 
 ## 🛠️ Instalación con XAMPP  
 
