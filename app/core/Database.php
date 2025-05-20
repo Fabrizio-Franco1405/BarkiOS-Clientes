@@ -6,9 +6,9 @@ class Database {
     private function __construct() {
         try {
             $this->pdo = new PDO(
-                'mysql:host=localhost;dbname=barkios-db;charset=utf8',
-                'root',
-                '',
+                'mysql:host=barkios-db;dbname=barkios_db;charset=utf8',
+                'barkios_admin',
+                'barkios_pass123',
                 [
                     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
