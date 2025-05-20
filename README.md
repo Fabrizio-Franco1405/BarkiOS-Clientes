@@ -39,6 +39,29 @@ Entornos: Docker (producción) | XAMPP (desarrollo)
 Herramientas: phpMyAdmin (ambos entornos)  
 ```  
 
+## 🛠️ Instalación con XAMPP  
+
+### Requisitos  
+- XAMPP 8.2+  
+- MySQL 8.0  
+
+### Pasos  
+1. Clonar rama xampp:  
+   ```bash
+   git clone -b xampp https://github.com/Fabrizio-Franco1405/BarkiOS-Clientes.git
+   ```  
+2. Mover proyecto a `htdocs`  
+3. Importar DB:  
+   ```sql
+   source database/clientes.sql
+   ```  
+4. Configurar `config/database.php`  
+
+5. Elegir ruta:
+   ```
+   http://localhost/BarkiOS-Clientes/app/views/admin/clients-admin.php
+   ```
+
 ## 🐳 Instalación con Docker  
 
 ### Requisitos  
@@ -50,30 +73,16 @@ docker-compose --version
 ### Pasos  
 1. Clonar repositorio (rama main):  
    ```bash
-   git clone https://github.com/tu-usuario/BarkiOS.git
+   git clone https://github.com/Fabrizio-Franco1405/BarkiOS-Clientes.git
    ```  
 2. Iniciar contenedores:  
    ```powershell
    docker-compose up -d --build
    ```  
-
-## 🛠️ Instalación con XAMPP  
-
-### Requisitos  
-- XAMPP 8.2+  
-- MySQL 8.0  
-
-### Pasos  
-1. Clonar rama xampp:  
-   ```bash
-   git clone -b xampp https://github.com/tu-usuario/BarkiOS.git
-   ```  
-2. Mover proyecto a `htdocs`  
-3. Importar DB:  
-   ```sql
-   source database/proveedores.sql
-   ```  
-4. Configurar `config/database.php`  
+3. Elegir ruta:
+   ```
+   http://localhost:9080/app/views/admin/clients-admin.php
+   ```
 
 ## 📂 Estructura del Proyecto  
 ```bash
@@ -91,13 +100,13 @@ BarkiOS/
 ## 🖥️ Uso  
 **Accesos Docker:**  
 ```plaintext
-URL: http://localhost:8080/proveedores  
+URL: http://localhost:8080/clientes 
 phpMyAdmin: http://localhost:8000  
 ```  
 
 **Accesos XAMPP:**  
 ```plaintext
-URL: http://localhost/BarkiOS-Proveedores/app/views/admin/supplier-admin.php
+URL: http://localhost/BarkiOS-Clientes/app/views/admin/clients-admin.php
 phpMyAdmin: http://localhost/phpmyadmin  
 ```  
 
