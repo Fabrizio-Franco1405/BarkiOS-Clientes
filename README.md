@@ -17,7 +17,7 @@
 - [Licencia](#-licencia)  
 
 ## 🌟 Descripción  
-**Módulo de Proveedores de BarkiOS** es un sistema completo para la gestión de proveedores en tiendas de ropa con soporte para ambos entornos:  
+**Módulo de Clientes de BarkiOS** es un sistema completo para la gestión de clientes en tiendas de ropa con soporte para ambos entornos:  
 
 - 🐳 **Docker**: Entorno containerizado listo para producción  
 - 🛠️ **XAMPP**: Configuración local para desarrollo rápido  
@@ -25,7 +25,7 @@
 ## 🚀 Funcionalidades  
 | Módulo | Descripción |  
 |--------|------------|  
-| **Registro** | Alta de proveedores con validación de RIF/DNI |  
+| **Registro** | Alta de clientes con validación de RIF/DNI |  
 | **Gestión** | Edición de datos de contacto y productos |  
 | **Reportes** | Generación de listados y transacciones |  
 | **Integración** | API REST para conexión con otros sistemas |  
@@ -133,9 +133,9 @@ phpMyAdmin: http://localhost/phpmyadmin
 
 ## 🌐 API Endpoints  
 ```plaintext
-GET    /api/proveedores     - Listar proveedores  
-POST   /api/proveedores     - Crear nuevo proveedor  
-GET    /api/proveedores/{id} - Detalles de proveedor  
+GET    /api/clientes     - Listar clientes  
+POST   /api/clientes     - Crear nuevo cliente  
+GET    /api/clientes/{id} - Detalles de cliente
 ```  
 
 ## 📜 Licencia  
