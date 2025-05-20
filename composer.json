@@ -1,17 +1,16 @@
 {
-    "name": "barkios/barkios",
-    "description": "Proyecto BarkiOs - Sistema de gestión",
+    "name": "clientes/clientes",
+    "description": "Modulo funcional de clientes con el CRUD para la asignación del profesor",
     "type": "project",
-    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Barkios\\Barkios\\": "app/"
+            "Clientes\\Clientes\\": "app/"
         }
     },
     "authors": [
         {
-            "name": "Nokx1z",
-            "email": "enyelldev@gmail.com"
+            "name": "Fabrizio Franco",
+            "email": "fabrizio.software.dev@gmail.com"
         }
     ],
     "minimum-stability": "stable",

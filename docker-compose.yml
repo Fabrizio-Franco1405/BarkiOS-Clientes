@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  barkios-app:  # Cambiado de 'app' a 'barkios-app'
+  barkios-clientes-app:  # Cambiado de 'app' a 'barkios-app'
     build: .
     ports:
       - "9080:80"  # Cambiado de 8080 a 9080
