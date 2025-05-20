@@ -144,4 +144,4 @@ MIT License - Ver [LICENSE](LICENSE)
 - Para entornos productivos usar rama `main` con Docker  
 - Los datos de prueba se incluyen en `database/seeders`  
 
-*Sistema desarrollado por [Tu Nombre] para [Nombre de la Institución]*
+*Sistema desarrollado por Fabrizio Franco para Empresa de ropa femenina Garage Barki*
