@@ -39,6 +39,31 @@ Entornos: Docker (producción) | XAMPP (desarrollo)
 Herramientas: phpMyAdmin (ambos entornos)  
 ```  
 
+## 🛠️ Instalación con XAMPP  
+
+### Requisitos  
+- XAMPP 8.2+  
+- MySQL 8.0  
+
+### Pasos  
+1. Clonar rama xampp:  
+   ```bash
+   git clone -b xampp https://github.com/Fabrizio-Franco1405/BarkiOS-Clientes.git
+   ```  
+2. Mover proyecto a `htdocs`  
+3. Importar DB:  
+   ```sql
+   source database/clientes.sql
+   ```  
+4. Configurar `config/database.php`  
+
+5. Elegir ruta:
+   ```
+   http://localhost/BarkiOS-Clientes/app/views/admin/clients-admin.php
+   ```
+
+=======
+
 ## 🐳 Instalación con Docker  
 
 ### Requisitos  
@@ -60,6 +85,7 @@ docker-compose --version
    ```
    http://localhost:9080/app/views/admin/clients-admin.php
    ```
+=======
 
 ## 🛠️ Instalación con XAMPP  
 
