@@ -75,7 +75,7 @@ switch ($action) {
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/app/views/admin/clients-admin.php">
+                    <a class="nav-link active" href="./clients-admin.php">
                         <i class="fas fa-users"></i>
                         Clientes
                     </a>
